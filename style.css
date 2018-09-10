@@ -1,0 +1,60 @@
+html, body {
+	background: red;
+	color: #fff;
+}
+
+h1 { color: blue; }
+
+ul, ol {
+	border: 1px solid rgb(236, 221, 86);
+	padding: 20px 40px;
+}
+
+ul li,
+ol li {
+	font-display: arial
+	font-size: 20px;
+	line-height: 1.8;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+}
+
+.heading {
+	color: red;
+	font-family: Crillee Extra Bold Italic;
+	font-size: 150px
+}
+
+.cali {
+	color: blue;
+	font-family: Crillee Extra Bold Italic;
+	font-size: 90px;
+
+
+}
+.interests {
+	font-family: Crillee Extra Bold Italic;
+	font-size: 50px;
+}
+
+#homepage-heading {
+	color: pink;
+}
+
+.heading small {
+	font-size: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
