@@ -41,5 +41,5 @@ $('a').click(function() {
     } else {
       $(this).text( "click me for a compliment" );
     }
-  
+   
   });

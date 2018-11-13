@@ -19,29 +19,41 @@ img {
     height: 100px;
 }
 #myImage {
-   position: fixed;
+   position: absolute;
    right: 400px;
    top: 100px;
 }
 
 #leftButton { 
-    right: 200px;
+    position: absolute;
+    top: 500px;
 
 }
 #rightButton { 
-
+    position: absolute;
+    top: 500px;
+    right: 200px;
 }
 
-canvas {}
+canvas {
+}
 
 .btn {
+    position: absolute;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 100px;
     color: white;
+    display: block;
+    top: 600px;
 }
 
 .hide {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 100px;
     color: white;
+    display: block;
+    top: 600px;
 }
+
+
+

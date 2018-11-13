@@ -1,5 +1,5 @@
 var system;
-var state = false;
+var falling = false;
 var img;
 
 function setup() {
@@ -19,7 +19,7 @@ function draw() {
   // }
   // else {
   // }
-  if(state == true){
+  if(falling == true){
     system.addParticle();
     system.run();
   }
@@ -28,13 +28,18 @@ function draw() {
 
 function mouseReleased(){
   //this is where you change your mouse click area !!! 
-  if(mouseX < 600 && mouseX > 0 && mouseY < 600 && mouseY > 0) return;
-  state = !state;
+ // if(mouseX < 600 && mouseX > 0 && mouseY < 600 && mouseY > 0) return;
+  //falling = !falling;
 }
 
 function keyPressed() {
+  //clear function 
   if (key == 'c') {
     clear();
+  }
+  //this part is for stopping falling
+  if (key == 's') {
+    falling = !falling;
   }
 }
 
